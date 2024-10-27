@@ -160,7 +160,6 @@ footer p {
     margin: 5px 0;
 }
 
-/* Адаптивные стили */
 @media (max-width: 768px) {
     .hero-content h1 {
         font-size: 2em;
@@ -170,9 +169,14 @@ footer p {
         font-size: 1.2em;
     }
 
+    .features {
+        flex-direction: column; /* Change to column for mobile */
+        align-items: center; /* Center align items */
+    }
+
     .features .feature {
-        width: 100%;
-        margin-bottom: 20px;
+        width: 100%; /* Make each feature take full width */
+        margin-bottom: 20px; /* Add spacing between features */
     }
 
     .gallery img {

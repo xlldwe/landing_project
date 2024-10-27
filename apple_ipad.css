@@ -60,6 +60,8 @@ body {
     border-radius: 25px;
     text-decoration: none;
     transition: background 0.3s ease, transform 0.3s ease;
+    max-width: 90%; /* Ограничиваем максимальную ширину кнопки */
+    margin: 10px auto; /* Центрирование кнопки и добавление отступов */
 }
 
 .cta-button:hover {
@@ -188,6 +190,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap; /* Добавлено для мобильной адаптивности */
 }
 
 .pricing-card {
@@ -197,6 +200,8 @@ body {
     text-align: center;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    flex: 1 1 200px; /* Автоматическая ширина с минимальным значением */
+    margin: 10px; /* Добавьте отступы между карточками */
 }
 
 .pricing-card:hover {
@@ -217,7 +222,8 @@ body {
 #pricing-section {
     text-align: center;
 }
-#pricing-section p{
+
+#pricing-section p {
     margin-bottom: 10px;
 }
 
@@ -229,6 +235,9 @@ body {
     text-decoration: none;
     font-size: 1rem;
     transition: background 0.3s ease;
+    max-width: 90%; /* Ограничиваем максимальную ширину кнопки */
+    margin: 10px auto; /* Центрируем кнопку */
+    display: inline-block; /* Убедитесь, что кнопка является блочным элементом */
 }
 
 .buy-button:hover {
@@ -257,5 +266,11 @@ footer {
     .feature div {
         max-width: 100%;
         text-align: center;
+    }
+
+    .cta-button,
+    .buy-button {
+        padding: 10px 20px;
+        font-size: 1rem;
     }
 }
