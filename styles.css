@@ -51,9 +51,9 @@ body {
     border-radius: 25px;
     text-decoration: none;
     transition: background 0.3s ease, transform 0.3s ease;
-    display: inline-block; /* Убедитесь, что кнопка является блочным элементом */
-    max-width: 90%; /* Ограничьте максимальную ширину кнопки */
-    margin: 10px auto; /* Центрирование кнопки и добавление отступов */
+    display: inline-block;
+    max-width: 90%;
+    margin: 10px auto;
 }
 
 .cta-button:hover {
@@ -88,11 +88,11 @@ footer {
 
 @media (max-width: 768px) {
     .overlay h1 {
-        font-size: 2rem; /* Уменьшите размер заголовка */
+        font-size: 2rem;
     }
 
     .cta-button {
-        padding: 10px 20px; /* Уменьшите отступы кнопки на мобильных */
-        font-size: 1rem; /* Уменьшите размер шрифта кнопки */
+        padding: 10px 20px;
+        font-size: 1rem;
     }
 }

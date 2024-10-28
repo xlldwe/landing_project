@@ -89,6 +89,13 @@ section h2 {
     text-align: center;
 }
 
+.gallery__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .features {
     display: flex;
     flex-direction: row;
@@ -170,13 +177,13 @@ footer p {
     }
 
     .features {
-        flex-direction: column; /* Change to column for mobile */
-        align-items: center; /* Center align items */
+        flex-direction: column;
+        align-items: center;
     }
 
     .features .feature {
-        width: 100%; /* Make each feature take full width */
-        margin-bottom: 20px; /* Add spacing between features */
+        width: 100%;
+        margin-bottom: 20px;
     }
 
     .gallery img {

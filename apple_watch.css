@@ -147,55 +147,54 @@ footer p {
     line-height: 1.6;
 }
 
-/* Mobile Adaptation */
 @media (max-width: 768px) {
     .hero-section {
-        height: 100vh; /* Maintain full height on mobile */
+        height: 100vh;
     }
 
     .hero-video {
-        width: 100vw; /* Use full viewport width */
-        height: 100vh; /* Use full viewport height */
+        width: 100vw;
+        height: 100vh;
         top: 0;
         left: 0;
     }
 
     h1 {
-        font-size: 2.5rem; /* Smaller font size */
+        font-size: 2.5rem;
     }
 
     p {
-        font-size: 1rem; /* Smaller font size */
+        font-size: 1rem;
     }
 
     .cta-button {
-        padding: 10px 20px; /* Adjust button padding */
-        font-size: 1rem; /* Smaller font size */
+        padding: 10px 20px;
+        font-size: 1rem;
     }
 
     main {
-        padding: 40px 10px; /* Adjust main padding */
+        padding: 40px 10px;
     }
 
     .section {
-        padding: 20px; /* Adjust section padding */
+        padding: 20px;
     }
 
     h2 {
-        font-size: 1.8rem; /* Smaller section title */
+        font-size: 1.8rem;
     }
 
     .feature {
-        flex-direction: column; /* Stack features vertically */
-        align-items: center; /* Center align */
+        flex-direction: column;
+        align-items: center;
     }
 
     .feature img {
-        width: 70px; /* Smaller feature image */
-        margin-bottom: 10px; /* Space between image and text */
+        width: 70px;
+        margin-bottom: 10px;
     }
 
     .gallery-grid {
-        grid-template-columns: 1fr; /* One column layout for gallery */
+        grid-template-columns: 1fr;
     }
 }
